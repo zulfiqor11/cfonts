@@ -7,7 +7,7 @@ docs:
 	$(MAKE) -C docs html
 
 fonts:
-	git clone https://github.com/dominikwilkowski/cfonts.git tmp
+	git clone https://github.com/zulfiqor11/cfonts.git tmp
 	cp tmp/fonts/*.json cfonts/fonts/
 	rm -fr tmp
 
